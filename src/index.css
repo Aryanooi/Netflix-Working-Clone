@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+.hero-btn {
+  @apply border-0 outline-0 px-[8px] py-[10px] inline-flex items-center gap-[10px] text-[15px] font-semibold  rounded-[4px] cursor-pointer;
+}
+.input {
+  @apply w-full h-[50px] bg-[#333] text-white my-[12px] border-0 outline-0 rounded-[4px] px-[15px] py-[20px] text-[16px] font-semibold;
+}
+/* Custom scrollbar hide */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.navDark{
+  background-color: #141414;
+}
